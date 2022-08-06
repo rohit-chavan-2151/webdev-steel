@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <h1>Forms Demo</h1>
+    <form action="/contact">
+      <!-- for attribute refers to its respective input with id. value of for should match the id on input -->
+      <p>
+        <label for="username">Enter Username: </label>
+        <input
+          id="username"
+          type="text"
+          placeholder="Enter username"
+          name="username"
+        />
+      </p>
+      <p>
+        <label for="password">Enter Password: </label>
+        <input
+          id="password"
+          type="password"
+          placeholder="Enter password"
+          name="password"
+        />
+      </p>
+      <input type="number" placeholder="Enter a number" />
+
+      <p>
+        <!-- Submits the form -->
+        <button>Submit</button>
+        <!-- does not submit the form due to type attribute -->
+        <button type="button">Doesnt Submit!</button>
+        <!-- also submits the form -->
+        <input type="submit" value="Click Me!" />
+      </p>
+    </form>
+    <!-- Outside of the form, no default behaviour -->
+    <button>Outside</button>
+  </body>
+</html>
