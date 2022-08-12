@@ -1,0 +1,18 @@
+body {
+  background-color: #264653;
+}
+
+/* Multiple selectors seperated by comma */
+h1,
+h2 {
+  color: #e9c46a;
+}
+
+/* Id selectors */
+#signup {
+  background-color: #e76f51;
+  border: none;
+  border-radius: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
