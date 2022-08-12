@@ -35,3 +35,20 @@ input[type='password'] {
 a[href*='google'] {
   color: green;
 }
+
+/* Pseudo classes */
+/* Keyword added to a selector that specifies a special state of the selected element */
+.post button:hover {
+  background-color: #e76f51;
+}
+footer a:hover {
+  color: brown;
+}
+.post:nth-of-type(2n) {
+  background-color: darkcyan;
+}
+
+/* Pseudo elements - Keyword added to a selector that lets you style a part of selected elements */
+h2::first-letter {
+  font-size: 3rem;
+}
