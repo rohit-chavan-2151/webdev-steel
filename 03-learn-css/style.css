@@ -27,6 +27,7 @@ h2 {
 .post a {
   color: #e76f51;
 }
+<<<<<<< HEAD
 
 /* Attribute selector */
 input[type='password'] {
@@ -35,3 +36,5 @@ input[type='password'] {
 a[href*='google'] {
   color: green;
 }
+=======
+>>>>>>> b46ef30f89e68c62396cf2085ec274bb4746f28b
