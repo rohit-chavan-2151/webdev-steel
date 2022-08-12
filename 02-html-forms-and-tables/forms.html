@@ -84,6 +84,33 @@
         </select>
         <button>Get Your Bike</button>
       </p>
+
+      <!-- Range -->
+      <p>
+        <label for="years">Select number of years to get your bike:</label>
+        <input type="range" name="years" id="years" min="1" max="5" value="1" />
+      </p>
+    </form>
+
+    <!-- Validations Demo -->
+    <h2>Validations Demo</h2>
+    <form action="/dummy">
+      <p>
+        <label for="first">Enter First Name</label>
+        <input type="text" name="first" id="first" required />
+      </p>
+      <p>
+        <label for="first">Enter Username</label>
+        <input
+          type="text"
+          name="username"
+          id="username"
+          minlength="5"
+          maxlength="10"
+          required
+        />
+      </p>
+      <button>Submit</button>
     </form>
   </body>
 </html>
