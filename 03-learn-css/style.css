@@ -16,3 +16,22 @@ h2 {
   padding: 10px 20px;
   font-size: 1rem;
 }
+
+/* Class selectors */
+.tag {
+  background-color: aquamarine;
+  color: darkslategrey;
+}
+
+/* Descendant selector */
+.post a {
+  color: #e76f51;
+}
+
+/* Attribute selector */
+input[type='password'] {
+  color: crimson;
+}
+a[href*='google'] {
+  color: green;
+}
