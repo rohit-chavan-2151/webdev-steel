@@ -35,3 +35,11 @@ input[type='password'] {
 a[href*='google'] {
   color: green;
 }
+
+/* Pseudo classes */
+.post button:hover {
+  background-color: #e76f51;
+}
+footer a:hover {
+  color: brown;
+}
