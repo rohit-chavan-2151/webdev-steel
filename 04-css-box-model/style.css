@@ -1,0 +1,39 @@
+/* div {
+  width: 300px;
+  height: 200px;
+} */
+* {
+  background-color: #2f3e46;
+}
+
+h1 {
+  color: #f6bd60;
+}
+div {
+  width: 75%;
+}
+#first {
+  margin-bottom: 1rem;
+  background-color: #1d3557;
+  color: #a8dadc;
+  border-width: 3px;
+  border-color: #f6bd60;
+  border-style: solid;
+
+  /* short hand */
+  /* border: 5px solid black;  */
+  /* Box sizing border box takes the size of the container, does not extend beyond that. */
+  /* For 300px div and border 5px, the box will be 310px. But with box sizing, it will remain 300px and border thickness will be subtracted */
+  box-sizing: border-box;
+}
+#second {
+  background-color: #457b9d;
+  color: #fff;
+}
+#third {
+  margin-top: 1rem;
+  background-color: #a8dadc;
+  color: #1d3557;
+  border: 2px solid #fb8b24;
+  border-radius: 10px;
+}
