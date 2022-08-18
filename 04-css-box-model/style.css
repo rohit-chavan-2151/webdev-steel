@@ -36,12 +36,27 @@ div {
   color: #fff;
 }
 #third {
-  margin-top: 2rem;
-  margin-left: 2rem;
+  margin: 2rem;
   background-color: #a8dadc;
   color: #1d3557;
   border: 2px solid #fb8b24;
   border-radius: 10px;
   /* Padding values: vertical | horizontal */
   padding: 20px 30px;
+}
+
+h2 {
+  display: inline;
+  background-color: darkolivegreen;
+  border: 1px solid orangered;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+/* For inline elements, margin, height, width do not work. You have to set the elements to inline-block */
+.display-div {
+  display: inline-block;
+  background-color: darkseagreen;
+  padding: 10px 20px;
+  margin: 30px;
 }
