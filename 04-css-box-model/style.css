@@ -7,7 +7,12 @@
 }
 
 h1 {
+  background-color: #457b9d;
   color: #f6bd60;
+  width: 50%;
+
+  /* Padding values: top | right | bottom | left */
+  padding: 10px 20px 30px 40px;
 }
 div {
   width: 75%;
@@ -31,9 +36,12 @@ div {
   color: #fff;
 }
 #third {
-  margin-top: 1rem;
+  margin-top: 2rem;
+  margin-left: 2rem;
   background-color: #a8dadc;
   color: #1d3557;
   border: 2px solid #fb8b24;
   border-radius: 10px;
+  /* Padding values: vertical | horizontal */
+  padding: 20px 30px;
 }
