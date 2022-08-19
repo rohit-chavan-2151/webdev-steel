@@ -1,0 +1,50 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+#container {
+  background-color: #003049;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* Flex has horizontal axis as main axis, and vertical axis as cross axis */
+#container div {
+  width: 200px;
+  height: 200px;
+}
+
+#container-reverse {
+  background-color: #003049;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+}
+#container-reverse div {
+  width: 200px;
+  height: 200px;
+}
+
+#container-column {
+  background-color: #003049;
+  width: 90%;
+  height: 500px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#container-column div {
+  width: 50%;
+  height: 50px;
+}
