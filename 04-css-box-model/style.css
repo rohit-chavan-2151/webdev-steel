@@ -98,4 +98,9 @@ h2 {
   position: fixed;
   top: 0;
   left: 750px;
+  transition: 1s;
+}
+
+#fixed #middle:hover {
+  border-radius: 50%;
 }
