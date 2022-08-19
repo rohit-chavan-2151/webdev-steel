@@ -48,3 +48,19 @@ h2 {
   width: 50%;
   height: 50px;
 }
+
+#container-wrap {
+  background-color: #003049;
+  width: 90%;
+  height: 250px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#container-wrap div {
+  width: 100px;
+  height: 100px;
+}
