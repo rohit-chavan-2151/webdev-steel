@@ -64,3 +64,20 @@ h2 {
   width: 100px;
   height: 100px;
 }
+
+#container-align {
+  background-color: #003049;
+  width: 90%;
+  height: 300px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex has horizontal axis as main axis, and vertical axis as cross axis */
+#container-align div {
+  width: 200px;
+  height: 200px;
+}
