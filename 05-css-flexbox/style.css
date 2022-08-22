@@ -81,3 +81,33 @@ h2 {
   width: 200px;
   height: 200px;
 }
+
+#container-flex {
+  background-color: #003049;
+  width: 90%;
+  height: 200px;
+  margin: 0 auto;
+  border: 3px solid #003049;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+/* Flex basis defines the initial size of an element before additional space is distributed */
+#container-flex div {
+  width: 100px;
+  height: 100px;
+  flex-basis: 400px;
+}
+/* Flex grow controls the amount of available space an element should take up. Accepts a unit-less number value */
+#container-flex div:nth-of-type(1) {
+  flex-grow: 1;
+}
+#container-flex div:nth-of-type(5) {
+  flex-grow: 1;
+}
+/* Flex shrink - If items are larger than the container, they shrink according to flex-shrink */
+#container-flex div:nth-of-type(3) {
+  flex-shrink: 2;
+}
