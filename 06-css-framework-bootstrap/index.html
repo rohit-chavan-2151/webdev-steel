@@ -13,8 +13,10 @@
   </head>
   <body>
     <div class="container">
-      <h1>Welcome to Bootstrap!</h1>
-      <p>
+      <h1 class="display-2 text-center text-warning bg-secondary my-2 py-2">
+        Welcome to Bootstrap!
+      </h1>
+      <p class="lead">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus
         id magni omnis voluptas veniam, at quisquam ad neque facere ipsam? Lorem
         ipsum dolor sit amet consectetur adipisicing elit. Aliquam, consectetur
@@ -24,13 +26,32 @@
         vitae sapiente itaque, illum aut vel excepturi repudiandae corrupti
         quaerat, ea molestias distinctio.
       </p>
+      <h2 class="display-4 py-2">
+        Display Typography <span class="badge bg-info">Good</span>
+      </h2>
       <button class="btn btn-primary">Primary</button>
       <button class="btn btn-success">Success</button>
-      <button class="btn btn-info btn-sm">Info</button>
+      <button class="btn btn-info">
+        <span class="badge rounded-pill text-bg-info">Info</span>
+      </button>
       <button type="button" class="btn btn-link">Link</button>
       <button type="button" class="btn btn-lg btn-outline-warning">
         Warning
       </button>
+      <figure class="py-4 text-center">
+        <blockquote class="blockquote">
+          <p>A well-known quote, contained in a blockquote element.</p>
+        </blockquote>
+        <figcaption class="blockquote-footer">
+          Someone famous in <cite title="Source Title">Source Title</cite>
+        </figcaption>
+      </figure>
+      <div class="btn-group">
+        <button class="btn btn-success">One</button>
+        <button class="btn btn-success">Two</button>
+        <button class="btn btn-success">Three</button>
+        <p class="mx-2">Button Groups</p>
+      </div>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
