@@ -18,3 +18,5 @@ console.log(firstName + lastName) //SteveAustin - Concatenation
 console.log(firstName + ' ' + lastName) //Steve Austin
 console.log(typeof firstName)
 console.log(typeof id)
+
+console.log(username.toUpperCase()) //ROHITCHAVAN2151
